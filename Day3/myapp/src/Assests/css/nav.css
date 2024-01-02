@@ -1,0 +1,81 @@
+body{
+    background: image 100px;;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.navlink
+{
+    height:5rem;
+    width:100vw;
+    background-color:lavenderblush;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    word-spacing: 13px;
+    background-position: left;
+}
+
+  .top-left {
+    border-image:
+      repeating-radial-gradient( 
+        at calc(100% - var(--w)/2 + var(--_w)) calc(100% - var(--w)/2 + var(--_w)),
+        var(--c) 0,#0000 1px var(--b),var(--c) calc(var(--b) + 1px) calc(var(--b)*2)
+      ) 9999 0 0 9999/
+      calc(100% - var(--_w)) var(--_w) var(--_w) calc(100% - var(--_w))/
+      999px 0 0 999px;
+    clip-path: 
+      polygon(
+        120.71% 50%,calc(120.71% - 999px) calc(50% - 999px),
+        calc(50% - 999px) calc(120.71% - 999px),50% 120.71%);
+  }
+  .bottom-right {
+    border-image:
+      repeating-radial-gradient( 
+        at calc(var(--w)/2 - var(--_w)) calc(var(--w)/2 - var(--_w)),
+        var(--c) 0,#0000 1px var(--b),var(--c) calc(var(--b) + 1px) calc(var(--b)*2)
+      ) 0 9999 9999 0/
+      var(--_w) calc(100% - var(--_w)) calc(100% - var(--_w)) var(--_w)/
+      0 999px 999px 0;
+    clip-path: 
+      polygon(50% -20.71%,calc(50% + 999px) calc(999px - 20.71%),
+      calc(999px - 20.71%) calc(50% + 999px),-20.71% 50%);
+  }
+  .top-right {
+    border-image:
+      repeating-radial-gradient( 
+        at calc(var(--w)/2 - var(--_w)) calc(100% - var(--w)/2 + var(--_w)),
+        var(--c) 0,#0000 1px var(--b),var(--c) calc(var(--b) + 1px) calc(var(--b)*2)
+      ) 9999 9999 0 0/
+      calc(100% - var(--_w)) calc(100% - var(--_w)) var(--_w) var(--_w)/
+      999px 999px 0 0;
+    clip-path: 
+      polygon(
+        -20.71% 50%,calc(999px - 20.71%) calc(50% - 999px),
+        calc(50% + 999px) calc(120.71% - 999px),50% 120.71%);
+  }
+  .bottom-left {
+    border-image:
+      repeating-radial-gradient( 
+        at calc(100% - var(--w)/2 + var(--_w)) calc(var(--w)/2 - var(--_w)),
+        var(--c) 0,#0000 1px var(--b),var(--c) calc(var(--b) + 1px) calc(var(--b)*2)
+      ) 0 0 9999 9999/
+      var(--_w) var(--_w) calc(100% - var(--_w)) calc(100% - var(--_w))/
+      0 0 999px 999px;
+    clip-path: 
+      polygon(50% -20.71%,calc(50% - 999px) calc(999px - 20.71%),
+      calc(120.71% - 999px) calc(50% + 999px),120.71% 50%);
+  }
+  
+  
+  *body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 20px;
+    background: #F2E9E1;
+    background-image: 100%;
+  }
