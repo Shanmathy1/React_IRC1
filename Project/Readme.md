@@ -1,1 +1,6 @@
-
+![Screenshot (7)](https://github.com/Shanmathy1/React_IRC1/assets/153259030/8523ad18-1ee8-4bb9-8609-0cf77dd06fdd)
+![Screenshot (8)](https://github.com/Shanmathy1/React_IRC1/assets/153259030/e1e98f9e-727c-40b2-b9b7-5585e94e14c4)
+![Screenshot (9)](https://github.com/Shanmathy1/React_IRC1/assets/153259030/818a99ef-2b32-4368-8230-328c0b345684)
+![Screenshot (10)](https://github.com/Shanmathy1/React_IRC1/assets/153259030/a0b21e72-0b89-4611-970c-0f41040bfacc)
+![Screenshot (11)](https://github.com/Shanmathy1/React_IRC1/assets/153259030/ca8a362e-9ee4-41e6-ad87-6e5d8b89d28f)
+![Screenshot (13)](https://github.com/Shanmathy1/React_IRC1/assets/153259030/b858f21f-5b91-4ce8-93ea-42f33f53e570)
